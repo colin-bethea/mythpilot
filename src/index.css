@@ -123,7 +123,15 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none; }
+  border-style: none;
+}
+
+.logo-main {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
 
 /* Forms
    ========================================================================== */
@@ -152,7 +160,9 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+  outline: none;
+}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
