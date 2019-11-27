@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectTable from './tables/ProjectTable'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         </div>
         <div className="flex-large">
           <h2>View projects</h2>
+          <ProjectTable/>
         </div>
       </div>
     </div>
